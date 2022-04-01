@@ -1,0 +1,28 @@
+{
+    "posts": [
+        {
+            "title": "fixo",
+            "type": "ilimitado fixo brasil"
+        },
+        {
+            "title": "tv",
+            "type": "ultimate-hd"
+        },
+        {
+            "title": "tv",
+            "type": "full-hd"
+        },
+        {
+            "title": "internet",
+            "type": "100mb"
+        },
+        {
+            "title": "internet",
+            "type": "200mb"
+        },
+        {
+            "title": "internet",
+            "type": "300mb"
+        }
+    ]
+  }
