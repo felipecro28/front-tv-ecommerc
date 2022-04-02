@@ -2,27 +2,33 @@
     "posts": [
         {
             "title": "fixo",
-            "type": "ilimitado fixo brasil"
+            "type": "ilimitado fixo brasil",
+            "preco": 30
         },
         {
             "title": "tv",
-            "type": "ultimate-hd"
+            "type": "ultimate-hd",
+            "preco": 45
         },
         {
             "title": "tv",
-            "type": "full-hd"
+            "type": "full-hd",
+            "preco": 65
         },
         {
             "title": "internet",
-            "type": "100mb"
+            "type": "100mb",
+            "preco": 30
         },
         {
             "title": "internet",
-            "type": "200mb"
+            "type": "200mb",
+            "preco": 45
         },
         {
             "title": "internet",
-            "type": "300mb"
+            "type": "300mb",
+            "preco": 60
         }
     ]
   }
