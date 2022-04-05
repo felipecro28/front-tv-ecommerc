@@ -20,20 +20,27 @@ Durante o projeto, escolhi por não usar bibliotecas como o bootstrap e  jquery.
 [vscode]
 [NODE-JS]
 
+# Para rodar a aplicação:
 
-## Project Setup
+## Vá para a pasta front-tv-vue
+```sh
+cd front-tv-vue
+```
+
+
+## Instale as dependências:
 
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Para rodar em modo de desenvolvimento:
 
 ```sh
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Para rodar em modo de produção:
 
 ```sh
 npm run build
