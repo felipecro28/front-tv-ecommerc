@@ -376,6 +376,10 @@ export default {
 
     }
 
+    #h2-product-tv{
+        font-size: 24px;
+    }
+
 
 
 
