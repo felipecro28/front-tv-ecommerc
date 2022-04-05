@@ -1,8 +1,9 @@
 <template>
     <div class="header-div">
-        <h1> TV FRONT </h1>
-        <p>&#128722</p>
-
+     <img src="../assets/front-tv.gif" alt="logo-front">
+     <p class="phone">0800-0800-0800</p>
+     <p class="header-txt">Front-Tv: </p>
+     <p class="header-txt" id="header-last-line">O seu plano digital de assinaturas!</p>
     </div>
 
     
@@ -12,35 +13,61 @@
 
 
 <script>
+
 export default {
     data(){
         return {
-            'name': 'Header'
+            'name': 'Header',
         }
-    }
+    },
 }
 </script>
 
 
-<style>
+<style scoped>
     .header-div{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         width: 100%;
-        height: 10vh;
-        background-color: rgba(182, 84, 35, 0.594);
-        padding: 30px 70px;
+        height: fit-content;
+        background-color: #C1121F;
+        text-align: center;
+        color: #FDF0D5;
+        padding-bottom: 60px;
     }
 
-    h1{
-        font-size: 75px;
-        padding: 40px 0 0;
-        color: rgb(15, 13, 13);
+    img{
+        width: 180px;
+        height: 180px;
+        margin: 0 auto;
     }
 
-    p{
-        font-size: 90px;
+    .phone{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 10px 0 0 10px;
+        font-size: 12px;
     }
+
+    #header-last-line{
+            margin-top: 30px
+        }
+
+    @media (min-width: 500px){
+        img{
+            display: flex;
+            width: 230px;
+            height: 230px;
+        }
+
+        .phone{
+            font-weight: bold;
+            font-size: 40px;
+        }
+
+        .header-txt{
+            font-size: 22px ;
+        }
+}
+
 
 </style>

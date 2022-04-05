@@ -1,7 +1,9 @@
 <template>
   <div class="app-div">
     <Header />
+    <Options />
     <Main />
+    <Bus />
   </div>
 </template>
 
@@ -9,11 +11,12 @@
 import Header from './components/Header.vue';
 import Main from './components/Main.vue';
 
+
 export default {
   name: 'app',
   components: {
         Header,
-        Main
+        Main,
   }
 }
 </script>
@@ -23,6 +26,8 @@ export default {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family:'Comfortaa', cursive;
+  
 
 }
 </style>

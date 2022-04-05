@@ -2,6 +2,13 @@
     "posts": [
         {
             "title": "fixo",
+
+            "type": "limitado - 200 minutos/mês",
+            "preco": 12
+        },
+
+        {
+            "title": "fixo",
             "type": "ilimitado fixo brasil",
             "preco": 30
         },
