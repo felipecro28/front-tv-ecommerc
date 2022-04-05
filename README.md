@@ -7,10 +7,10 @@ Os botões inicias filtram, através de métodos de um componente, os serviços 
 
 O aplicativo roda de forma totalmente responsiva, e no mesmo foram utilizadas as seguintes tecnologias:
 
-## HTML
-## CSS
-## JAVASCRIPT
-## VUE-JS
+#### HTML
+#### CSS
+#### JAVASCRIPT
+#### VUE-JS
 
 Durante o projeto, escolhi por não usar bibliotecas como o bootstrap e  jquery. Toda a visualização e estilização do documento foram realizadas com base em vanilla JavaScript e CSS.
 
